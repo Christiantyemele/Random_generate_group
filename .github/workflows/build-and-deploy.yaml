@@ -6,7 +6,7 @@ on:
       - main  # Change this to your main branch
 
 env:
-  REGISTRY: registry
+  REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
