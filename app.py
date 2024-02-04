@@ -59,7 +59,7 @@ def delete_student(student_id):
     db.session.commit()
     return redirect('/')
 
-
+#to route
 @app.route('/assign_group/<int:student_id>', methods=['POST'])
 def assign_group(student_id):
     student = Student.query.get(student_id)
