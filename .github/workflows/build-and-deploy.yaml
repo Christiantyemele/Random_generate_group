@@ -6,7 +6,7 @@ on:
       - main  # Change this to your main branch
 
 env:
-  REGISTRY: resgistry
+  REGISTRY: registry
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
