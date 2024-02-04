@@ -68,7 +68,7 @@ def assign_group(student_id):
     db.session.commit()
     return jsonify({'success': True, 'studentName': student.name, 'groupNumber': group_number})
 
-
+# in
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
